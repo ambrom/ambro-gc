@@ -9,7 +9,7 @@ le and run it everywhere.
 
 ### Build the image
 
-$ docker build -t username/example-gc https://github.com/ambrom/ambro-gc
+$ docker build -t username/example-gc github.com/ambrom/ambro-gc
 
 ### Run the image with Google Coder (a node.js application)
 
