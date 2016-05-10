@@ -10,10 +10,10 @@ le and run it everywhere.
 
 Build the image
 
-docker build -t username/username-gc https://github.com/ambrom/ambro-gc
+$ docker build -t username/username-gc https://github.com/ambrom/ambro-gc
 
 Run the image with Google Coder (a nodejs application)
 
-docker run -d -p 8180:8180 -p 8181:8181 username/username-gc
+$ docker run -d -p 8180:8180 -p 8181:8181 username/username-gc
 
 If everything goes well, Google Coder app is accessible  via a web browser at URL: https://"IP-of-VPS":8181/, for example: https://192.172.1.17:8181/ Do not forget to use https!
