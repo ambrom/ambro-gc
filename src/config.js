@@ -3,8 +3,8 @@ exports.listenIP = null; //Defaults to *
 exports.listenPort = '8181'; //the SSL port things run on
 exports.httpListenPort = '8180'; //this will all be redirected to SSL
 exports.cacheApps = true;
-exports.httpVisiblePort = '8079'; //forwarded http port the user sees
-exports.httpsVisiblePort = '7443'; //forwarded https port the user sees
+exports.httpVisiblePort = '8180'; //forwarded http port the user sees
+exports.httpsVisiblePort = '8181'; //forwarded https port the user sees
 
 
 //SSL Info
