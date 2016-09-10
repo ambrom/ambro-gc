@@ -19,5 +19,6 @@ RUN npm install
 
 COPY src/config.js /opt/coder/coder-base/config.js
 #EXPOSE 80 443
-EXPOSE 8180 8181
+#EXPOSE 8180 8181
+EXPOSE 8080 7443
 CMD ["nodejs","server.js"]
